@@ -5,6 +5,8 @@ import { MenuComponent } from './components/menu/menu.component';
 import { ChefsComponent } from './components/chefs/chefs.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { SingleBlogComponent } from './components/single-blog/single-blog.component';
+import { ElementsBlogComponent } from './components/elements-blog/elements-blog.component';
 
 export const routes: Routes = [
     // http://localhost:4200/ path est vide home 
@@ -19,4 +21,8 @@ export const routes: Routes = [
     {path:"blog",component:BlogComponent},
     // http://localhost:4200/ path contact de component display 
     {path:"contact",component:ContactComponent},
+    //appel au single-blog
+    {path:"single",component:SingleBlogComponent},
+    //appel au Elements-blog
+    {path:"elements",component:ElementsBlogComponent},
 ];
